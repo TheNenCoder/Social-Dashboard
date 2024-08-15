@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-size: 10px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    
+    margin: 150px auto;
+    border: 1px solid;
+    padding: 100px 200px;
+    display: grid;
+    grid-template-columns: repeat(4, 0.5fr);
+    grid-template-rows: repeat(5,0.5fr);
+    column-gap: 2rem;
+    row-gap: 1rem;
+    background-color: hsl(230, 17%, 14%) ;
+}
+
+.box{
+    background-color: coral;
+    color:hsl(0, 0%, 100%) ;
+    background-color: hsl(228, 28%, 20%) ;
+}
+.box:hover{
+    background-color: transparent;
+    transform: scale(90deg);
+}
+
+.header{
+    grid-column: 1/5;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header-flex{
+   padding: 30px 20px;
+}
+.toggle{
+    padding: 30px 20px;
+    display: flex;
+    font-size: 2rem;
+    gap: 1rem;
+}
+
+.item-1{
+    .followers-flex{
+       display: flex; 
+       justify-content: center;
+       flex-direction: column;
+       align-items: center;
+       padding: 30px 60px;
+    }
+    .flex{
+        display: flex;
+        gap: 1rem;
+        font-size: 2rem;
+       }
+    .p-numbers{
+        font-size: 2rem;
+        color: #fff;
+        padding: 1rem 1rem;
+    }
+    .p-followers{
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+    summary{
+        font-size: 2rem;
+        color:hsl(163, 72%, 41%) ;
+    }
+}
+
+.item-2{
+    .followers-flex{
+        display: flex; 
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 60px;
+     }
+     .flex{
+         display: flex;
+         gap: 1rem;
+        font-size: 2rem;
+         
+         
+        }
+     .p-numbers{
+         font-size: 2rem;
+         color: #fff;
+         padding: 1rem 1rem;
+     }
+     .p-followers{
+         font-size: 2rem;
+         padding-bottom: 1rem;
+     }
+     summary{
+         font-size: 2rem;
+         color:hsl(163, 72%, 41%) ;
+     }
+}
+
+.item-3{
+    .followers-flex{
+        display: flex; 
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 60px;
+     }
+     .flex{
+         display: flex;
+         gap: 1rem;
+        font-size: 2rem;
+        }
+     .p-numbers{
+         font-size: 2rem;
+         color: #fff;
+         padding: 1rem 1rem;
+     }
+     .p-followers{
+         font-size: 2rem;
+         padding-bottom: 1rem;
+     }
+     summary{
+         font-size: 2rem;
+         color:hsl(163, 72%, 41%) ;
+     }
+}
+
+.item-4{
+    .followers-flex{
+        display: flex; 
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 60px;
+     }
+     .flex{
+         display: flex;
+         gap: 1rem;
+        font-size: 2rem;
+        }
+     .p-numbers{
+         font-size: 2rem;
+         color: #fff;
+         padding: 1rem 1rem;
+     }
+     .p-followers{
+         font-size: 2rem;
+         padding-bottom: 1rem;
+     }
+     summary{
+         font-size: 2rem;
+         color:hsl(356, 69%, 56%) ;
+     }
+}
+
+.overview{
+    grid-column: 1/5;
+}
+.overview-p{
+    font-size: 2rem;
+    padding: 30px 20px;
+}
+
+.item-5{
+    .p-views{
+        color:hsl(228, 12%, 44%) ;
+    }
+    font-size: 2rem;
+    color: #fff;
+}
+.views{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+.numbers-views{
+    display: flex;
+    justify-content: space-evenly;
+}
+summary{
+    font-size: 2rem;
+    color:hsl(163, 72%, 41%) ;
+}
+
+.item-6{
+    .p-views{
+        color:hsl(228, 12%, 44%) ;
+    }
+    font-size: 2rem;
+    color: #fff;
+
+    .views{
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+    .p-views{
+        color:hsl(228, 12%, 44%) ;
+    }
+    .numbers-views{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    summary{
+        font-size: 2rem;
+        color:hsl(356, 69%, 56%) ;
+    }
+}
+
+
+
+.item-7{
+    font-size: 2rem;
+    color: #fff;
+    .p-views{
+        color:hsl(228, 12%, 44%) ;
+    }
+    .views{
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+    .numbers-views{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+.item-8{
+    .p-views{
+        color:hsl(228, 12%, 44%) ;
+    }
+    font-size: 2rem;
+    color: #fff;
+    .views{
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+    .numbers-views{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+.item-9{
+    .p-views{
+        color:hsl(228, 12%, 44%) ;
+    }
+    font-size: 2rem;
+    color: #fff;
+    .views{
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+    .numbers-views{
+        .p-views{
+            color:hsl(228, 12%, 44%) ;
+        }
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+.item-10{
+    .p-views{
+        color:hsl(228, 12%, 44%) ;
+    }
+    font-size: 2rem;
+    color: #fff;
+    .views{
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+    .numbers-views{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+.item-11{
+    .p-views{
+        color:hsl(228, 12%, 44%) ;
+    }
+    font-size: 2rem;
+    color: #fff;
+    .views{
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+    .numbers-views{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    summary{
+        font-size: 2rem;
+        color:hsl(356, 69%, 56%) ;
+    }
+}
+
+
+.item-12{
+    .p-views{
+        color:hsl(228, 12%, 44%) ;
+    }
+    font-size: 2rem;
+    color: #fff;
+    .views{
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+    .numbers-views{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    summary{
+        font-size: 2rem;
+        color:hsl(356, 69%, 56%) ;
+    }
+}
+
+
+.fa-facebook{
+    color:hsl(208, 92%, 53%) ;
+}
+
+.fa-twitter{
+    color:hsl(203, 89%, 53%) ;
+}  
+
+.fa-instagram{
+   color:hsl(37, 97%, 70%)  ;
+}
+
+.fa-youtube{
+    color: hsl(348, 97%, 39%);
+}
+
+.fa-toggle-on{
+    color:hsl(230, 22%, 74%) ;
+}
+
